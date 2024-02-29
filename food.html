@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="food.css">
+    
+</head>
+
+<header>
+    <a href="#" class="logo"><i class="fas fa-utensils"></i>Magique</a>
+    <nav class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#dishes">Dishes</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <!-- <a href="#review">Review</a> -->
+        <a href="#order">Order</a>
+
+    </nav>
+    <div class="icons">
+        <i class="fas fa-bars" id="bars"></i>
+        <i class="fas fa-search" id="search"></i>
+        
+    </div>
+
+
+</header>
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." style="color: #eee;" name="" id="search-box">
+    <label for="search-box" class="fas fa-search" ></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<section class="home" id="home">
+    <div class=" swipper-container home-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide slide">
+                <div class="content" >
+                    <span>Our Special Dish</span>
+                    <h3>Spicy Noodles</h3>
+                    <p>Zesty, flavorful noodles with a kick of spice, a taste sensation.</p>
+                    <a href="#order" class="btn">Order Now</a>
+                </div>
+                <div class="image">
+                    <img src="noodles.webp" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Our Special Dish</span>
+                    <h3>Fried Chicken</h3>
+                    <p>Crispy, fiery fried chicken, bursting with spicy flavors and mouthwatering goodness</p>
+                    <a href="#" class="btn">Order Now</a>
+                </div>
+                <div class="image">
+                    <img src="chicken.jpg" alt="" style="height: 500px; width: 600px;">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Our Special Dish</span>
+                    <h3>Pizza</h3>
+                    <p>Bold, fiery pizza masterpiece featuring zesty sauce, chili-packed toppings, and robust flavors.</p>
+                    <a href="#" class="btn">Order Now</a>
+                </div>
+                <div class="image">
+                    <img src="pizza.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<section class="dishes" id="dishes">
+    <h3 class="subheading">Our Dishes</h3>
+    <h1 class="heading">Popular Dishes</h1>
+    <div class="box-container">
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="burger.jpg" alt="">
+            <h3>Burger</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>80 Rs</span>
+            <a href="#order" class="btn">Order Now</a>
+        </div>
+            <br>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="frenchfries.jpg" alt="">
+            <h3>French Fries</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>90 Rs</span>
+            <a href="#order" class="btn">Order Now</a>
+        </div>
+        <br>
+        <div class="box">
+            
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            
+            
+                <img src="cocacola.jpg" alt="">
+                <h3>Soft Drinks</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+            </div>
+            
+            <span>110 Rs</span>
+            <a href="#order" class="btn">Order Now</a>
+        </div>
+        <br>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="cake.jpg" alt="">
+            <h3>Choco Cake</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>150 Rs</span>
+            <a href="#order" class="btn">Order Now</a>
+        </div>
+        <br>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="icecream.jpg" alt="">
+            <h3>Ice Cream</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>100 Rs</span>
+            <a href="#order" class="btn">Order Now</a>
+        </div>
+        <br>
+    
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="wings.jpg" alt="">
+            <h3>Chicken Wings</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>250 Rs</span>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h3 class="subheading">About Us</h3>
+    <h1 class="heading">Why Choose Us ?</h1>
+    <div class="row">
+        <div class="image">
+            <img src="dumplings.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Best Food In The Country</h3>
+            <p>Experience culinary excellence at Magique: a diverse menu, fresh ingredients, and exceptional service create a gastronomic adventure. Indulge in a symphony of flavors that satisfy every palate, order now.</p>
+            <p>Savor bold, creative dishes with an inviting ambiance. From zesty pizzas to fiery entrees, Resto promises a memorable dining experience. Elevate your taste journey today. Order from Mgique!</p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>Free Delivery</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>Easy Payment</span>
+            </div>
+            <div class="icons">
+                <i class="fas fa-headset"></i>
+                <span>24/7 Service</span>
+        </div>
+        
+    </div>
+    <a href=https://www.zomato.com/bangalore/magique-koramangala-6th-block-bangalore class="btn">Learn More</a>
+
+    </div>
+    
+</section>
+
+<section class="menu" id="menu">
+    <h3 class="subheading">Our Menu</h3>
+    <h1 class="heading">Today's Special</h1>
+    <div class="box-container">
+        <div class="box" >
+            <div class="image">
+                <img src="wings.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>chicken wings</h3>
+                <p>Zesty, flavorful chicken wings with a kick of spice, a taste sensation.</p>
+                <a href="#order" class="btn">Order Now</a>
+                <span class="pice">320 Rs</span>
+            </div>
+        </div>
+        <br>
+        <div class="box">
+            <div class="image">
+                <img src="noodles.webp" alt="" >
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>noodles</h3>
+                <p>Bold, fiery noodles masterpiece featuring zesty sauce, chili-packed toppings, and robust flavors.</p>
+                <a href="#order" class="btn">Order Now</a>
+                <span class="pice">200 Rs</span>
+            </div>
+        </div>
+        <br>
+        <div class="box">
+            <div class="image">
+                <img src="cake.jpg" alt="" >
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3> choco cake</h3>
+                <p>Our cakes are baked with love!</p>
+                <a href="#order" class="btn">Order Now</a>
+                <span class="pice">80 Rs</span>
+            </div>
+        </div>
+        <br>
+        <div class="box">
+            <div class="image">
+                <img src="chicken.jpg" alt="" >
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>fried chicken</h3>
+                <p>Zesty, flavorful fried chicken with a kick of spice, a taste sensation.</p>
+                <a href="#order" class="btn">Order Now</a>
+                <span class="pice">140 Rs</span>
+            </div>
+        </div>
+        <br>
+        <div class="box">
+            <div class="image">
+                <img src="burger.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>burger</h3>
+                <p>Bold, fiery burger masterpiece featuring zesty sauce, chili-packed toppings, and robust flavors.</p>
+                <a href="#order" class="btn">Order Now</a>
+                <span class="pice">420 Rs</span>
+            </div>
+        </div>
+        <br><div class="box">
+            <div class="image">
+                <img src="cocacola.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>coca cola</h3>
+                <p>The passion that is loaded by the drink.</p>
+                <a href="#order" class="btn">Order Now</a>
+                <span class="pice">300 Rs</span>
+            </div>
+        </div>
+        <br>
+        <div class="box">
+            <div class="image">
+                <img src="frenchfries.jpg" alt="" >
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>frenchfries</h3>
+                <p>Bold, fiery frenchfries masterpiece featuring zesty sauce, chili-packed toppings, and robust flavors.</p>
+                <a href="#order" class="btn">Order Now</a>
+                <span class="pice">100 Rs</span>
+            </div>
+        </div>
+        <br>
+        <div class="box">
+            <div class="image">
+                <img src="pizza.jpg" alt="" >
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>pizza</h3>
+                <p>Zesty, flavorful pizza with a kick of spice, a taste sensation.</p>
+                <a href="#order" class="btn">Order Now</a>
+                <span class="pice">260 Rs</span>
+            </div>
+        </div>
+        <br>
+        <div class="box">
+            <div class="image">
+                <img src="icecream.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>icecream</h3>
+                <p>We dare you to find better ice cream</p>
+                <a href="#order" class="btn">Order Now</a>
+                <span class="pice">90 Rs</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="order" id="order">
+    <h3 class="subheading">Order Now</h3>
+    <h1 class="heading">Free and Fast</h1>
+
+    <form action="">
+        <div class="inputbox">
+            <div class="input">
+                <span>Your Name</span>
+                <input type="text"placeholder="Enter your name here">
+            </div>
+            <div class="input">
+                <span>Your Number</span>
+                <input type="number"placeholder="Enter your number here">
+            </div>
+            <div class="input">
+                <span>Your Order</span>
+                <input type="text"placeholder="Enter your food here">
+            </div>
+            <div class="input">
+                <span>Additional Food</span>
+                <input type="text"placeholder="Enter additional food here">
+            </div>
+            <div class="input">
+                <span>Quantity</span>
+                <input type="number"placeholder="How many Orders">
+            </div>
+            <div class="input">
+                <span>Date And Time</span>
+                <input type="datetime-local">
+            </div>
+            <div class="input">
+                <span>Address</span>
+                <textarea name="" placeholder="Enter your address here" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input">
+                <span>Message</span>
+                <textarea name="" placeholder="Enter your message here" cols="30" rows="10"></textarea>
+            </div>
+          
+        </div>
+        <input type="submit" value="Order Now!"class="btn" id="bts" >
+    </form>
+
+    <script>
+       document.getElementById('bts').onclick=()=>{
+        bts.innerHTML("your orfer is arriving")
+        }
+    </script>
+
+    
+
+    
+
+</section>
+
+<section class="footer" id="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>locations</h3>
+            <a href=>Jayanagar</a>
+            <a href=>J P Nagar</a>
+            <a href=>Rajaraajeshwari nagar</a>
+            <a href=>Church Street</a>
+            
+        </div>
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#home">home</a>
+            <a href="#dishes">Dishes</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#order">Order</a>
+        </div>
+        <div class="box">
+            <h3>Contact Information</h3>
+            <a href=>+123-456-7890</a>
+            <a href=>+111-222-3333</a>
+            <a href=>Aman123@gmail.com</a>
+            <a href=>Shraddha456@gmail.com</a>
+            <a href=>Banglore , India -400104</a>
+        </div>
+        <div class="box">
+            <h3>Follow Us</h3>
+            <a href="https://www.facebook.com/">Facebook</a>
+            <a href="https://twitter.com/?lang=en-in">Twitter</a>
+            <a href="https://www.instagram.com/?hl=en">Instagram</a>
+            <a href="https://www.youtube.com/">YouTube</a>
+            <a href="#">Banglore , India -400104</a>
+        </div>
+    </div>
+    <div class="credit">Copyright @ 2021 by <span>AmanShraddha</span></div>
+    </div>
+</section>
+
+<body>
+    
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="food.js"></script>
+</html>
