@@ -1,4 +1,4 @@
-# Restaurant-Menu
+# Restaurant-Website
 
 ## Table of Contents
 - [Introduction](#introduction)
